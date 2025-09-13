@@ -26,14 +26,19 @@ Our N8N workflow takes all the inputs (the user's media, text, location, and lan
 Step 4: Actionable Advice is Delivered
 The bot sends back a simple, clear analysis and a step-by-step action plan in the user's chosen language.
 
-4. Tech Stack
+4. Tech Stack:
+   
 Bot Framework: Telegram Bot API
+
 Workflow Automation: N8N (as the central orchestrator)
+
 AI Integration:
 OpenAI GPT-4o: For multimodal analysis and generating recommendations.
 OpenAI Whisper: For transcribing voice note inputs.
+
 External Data: OpenWeatherMap API for real-time weather data.
-5. Setup and Installation
+
+6. Setup and Installation:
 This project is built on N8N and can be easily reproduced.
 
 1. Prerequisites: You need a running instance of N8N.
